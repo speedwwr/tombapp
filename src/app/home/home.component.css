@@ -1,0 +1,29 @@
+.sidenav-container {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 240px;
+  background: #ffffff;
+}
+
+.mat-toolbar {
+  justify-content: center;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.content {
+  padding: 24px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.search-input {
+  flex: 1;
+}

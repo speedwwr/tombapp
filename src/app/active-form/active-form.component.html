@@ -1,0 +1,98 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav mode="side" opened class="sidenav">
+    <mat-nav-list>
+      <a mat-list-item routerLink="/ativos" class="active">
+        <mat-icon>list</mat-icon>
+        Equipamentos
+      </a>
+      <a mat-list-item routerLink="/alocacoes">
+        <mat-icon>person</mat-icon>
+        Alocações
+      </a>
+      <a mat-list-item routerLink="/dashboard">
+        <mat-icon>dashboard</mat-icon>
+        Dashboard
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="content">
+    <mat-toolbar color="primary">
+      <span>Tombapp</span>
+    </mat-toolbar>
+
+    <div class="form-container">
+      <button mat-icon-button (click)="voltar()">
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+
+      <div class="form-section">
+        <div class="form-row">
+          <mat-form-field appearance="fill">
+            <mat-label>Ativo</mat-label>
+            <input matInput value="9462" disabled>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Alocação atual</mat-label>
+            <input matInput value="Miller Sampaio Mello de Castro | 7226" disabled>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Local atual</mat-label>
+            <input matInput value="Etech - Sala 210" disabled>
+          </mat-form-field>
+        </div>
+
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Descrição</mat-label>
+          <textarea matInput rows="2" value="Microcomputador Portátil Dell GI5 5530 (Core i7 -I3650Hx, Geforce) 16GB, SSD 1 TB" disabled></textarea>
+        </mat-form-field>
+
+        <div class="form-row">
+          <mat-form-field appearance="fill">
+            <mat-label>Valor de compra</mat-label>
+            <input matInput value="R$ 8.932,90" disabled>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Nota fiscal</mat-label>
+            <input matInput value="3721532097123" disabled>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Chave de acesso da nota fiscal</mat-label>
+            <input matInput value="80012555001012002019768603301427599140540543" disabled>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Data da compra</mat-label>
+            <input matInput value="02/08/2021" disabled>
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <mat-form-field appearance="fill">
+            <mat-label>Classificação</mat-label>
+            <input matInput value="Computadores e periféricos" disabled>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Centro de custo</mat-label>
+            <input matInput value="Sagemcom | 10123" disabled>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Número de série</mat-label>
+            <input matInput value="JY6364A5I" disabled>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Fornecedor</mat-label>
+            <input matInput value="Dell computadores do Brasil LTDA" disabled>
+          </mat-form-field>
+        </div>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
